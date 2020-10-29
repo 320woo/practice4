@@ -14,7 +14,7 @@
               <v-list-item>
                 <v-list-item-content>
                   <div class="headline mb-1">
-                    <v-toolbar color="pink" dark>제목
+                    <v-toolbar color="pink" dark><h1 id="as">제목</h1>
                       <v-spacer></v-spacer>
                       <v-btn small v-btn color="purple" dark><v-icon dark>build</v-icon></v-btn>
                       <v-btn small v-btn color="red" dark @click=""><v-icon dark>block</v-icon></v-btn>
@@ -39,6 +39,9 @@
                 <v-list-item-content>
                   <div class="headline mb-1">
                     <v-toolbar color="pink" dark>제목
+                      <v-spacer></v-spacer>
+                      <v-btn small v-btn color="purple" dark><v-icon dark>build</v-icon></v-btn>
+                      <v-btn small v-btn color="red" dark @click=""><v-icon dark>block</v-icon></v-btn>
                     </v-toolbar>
                   </div>
                   <v-list-item-title> 타이틀 </v-list-item-title>
