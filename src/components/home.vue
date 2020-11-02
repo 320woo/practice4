@@ -23,6 +23,14 @@
             <router-link class="nav-link" to="/blog">일정</router-link>
           </v-list-tile-content>
         </v-list-tile>
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon>home</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <router-link class="nav-link" to="/contact">연습</router-link>
+          </v-list-tile-content>
+        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <router-view/>
@@ -115,11 +123,4 @@ export default {
 }
 </script>
 <style>
-#map {
-  position: center;
-  margin: 0;
-  padding: 0;
-  height: 400px;
-  width: 100%;
-}
 </style>
